@@ -17,9 +17,7 @@ Machine Learning: POI identifier in enron fraud in python (sklearn)
 **least_component = True(default)** - set this to **False** if the PCA should not be run in 
                                   email corpus.
                                   
-                                  
 
+**MAIN-FILE - poi_id.py**
 
-
-
-
+Please run above file with the other .py files in the same folder. 
