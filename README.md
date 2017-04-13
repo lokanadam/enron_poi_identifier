@@ -30,7 +30,7 @@ Process -
 
 ### Problems encountered and solutions:
 
-**Small Dataset** - The initial email and financial data was small with just 140 data points
+**Small Dataset** - The initial email and financial data was small with just 140 data points.
 
 ***Solution*** - Multi fold cross-validation was used to handle the problem of small dataset.
 
@@ -38,20 +38,16 @@ Process -
 
 ***Solution*** - The dataset was balanced using undersampling and oversampling the dataset.
 
-**Too many features** - Features created using the email corpus were too many and was very process intensive
+**Too many features** - Features created using the email corpus were too many and was very process intensive.
 
 ***Solution*** - PCA was used to project components in to a more manageable dimension.
 
-### Metrics Summary
+### Metrics Summary:
 
 **Email and Financial dataset & SVM**
 
-Precision: 0.72720	
-Recall: 0.81083	
-F-Score: 0.76675	
+***Precision:*** 0.72720  ***Recall:*** 0.81083	 ***F-Score:*** 0.76675	
 
 **Email corpus data & SVM**
 
-Precision: 0.982078853047
-Recall: 0.984431137725
-F-Score 0.983253588517
+***Precision:*** 0.9821 ***Recall:*** 0.984431137725  ***F-Score:*** 0.9833
